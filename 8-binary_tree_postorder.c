@@ -4,7 +4,7 @@
  * binary_tree_postorder - Uses a binary tree for post-order traversal.
  * @tree: Pointer to the root node of the tree to traverse.
  * @func: Pointer to a function to call for each node.
- * Description: traverses the binary tree in post-order and applies the provided
+ * Description: traverses binary tree in post-order applies the provided
  * function to each node's value. Recursively traverses the left
  * subtree, then the right subtree, and finally applies the function to the
  * current node's value.
