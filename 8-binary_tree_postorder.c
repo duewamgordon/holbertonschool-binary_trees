@@ -1,13 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_postorder - Goes through a binary tree using post-order traversal.
+ * binary_tree_postorder - Uses a binary tree for post-order traversal.
  * @tree: Pointer to the root node of the tree to traverse.
  * @func: Pointer to a function to call for each node.
- *
- * Description:
- * This function traverses the binary tree in post-order and applies the provided
- * function to each node's value. It starts by recursively traversing the left
+ * Description: traverses the binary tree in post-order and applies the provided
+ * function to each node's value. Recursively traverses the left
  * subtree, then the right subtree, and finally applies the function to the
  * current node's value.
  *
